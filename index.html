@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVR Greentech Solutions | Sustainable Solar Energy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <img src="images/logo.png" alt="MVR Greentech Solutions">
+                    <span class="logo-text">MVR GREENTECH SOLUTIONS</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#process">Process</a>
+                <a href="#careers">Careers</a>
+                <a href="#contact" class="btn-primary">Get Quote</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Sustainable Energy <br>Reliable Execution</h1>
+            <p>Complete EPC solutions for residential, industrial, and commercial solar rooftop, distributed energy, and
+                Large Scale MW projects. Making clean
+                energy accessible for everyone.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Start Your Solar Journey</a>
+                <a href="#services" class="btn-secondary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About MVR Greentech Solutions</h2>
+            <p>Led by an industry-experienced solar professional committed to a greener future.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-img">
+                <img src="images/engineer.png" alt="Solar Engineer">
+            </div>
+            <div class="about-content">
+                <h3>Empowering Your Energy Independence</h3>
+                <p>MVR Greentech Solutions is led by an industry-experienced solar professional with a proven background
+                    in residential, industrial, commercial solar rooftop projects.</p>
+                <br>
+                <p>We deliver complete EPC solutions—from site assessment, design engineering, supply, installation,
+                    commissioning, to long-term O&M support. Our purpose is simple: to make clean energy reliable,
+                    affordable, and accessible for every customer.</p>
+                <br>
+                <a href="#contact" class="btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-title">
+            <h2>Our Core Services</h2>
+            <p>Comprehensive solar solutions tailored to your needs.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-home"></i></div>
+                <h3>Rooftop Solar Solutions</h3>
+                <ul>
+                    <li>Residential solar PV systems</li>
+                    <li>Industrial and commercial solar plants</li>
+                    <li>Net-metering and DISCOM coordination</li>
+                    <li>Performance-optimized system design</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-drafting-compass"></i></div>
+                <h3>EPC Services</h3>
+                <ul>
+                    <li>Detailed site feasibility & shadow analysis</li>
+                    <li>Structural & electrical design</li>
+                    <li>High-quality module & inverter supply</li>
+                    <li>Skilled installation and commissioning</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-tools"></i></div>
+                <h3>Operations & Maintenance</h3>
+                <ul>
+                    <li>Preventive and corrective maintenance</li>
+                    <li>Remote monitoring support</li>
+                    <li>Energy generation analytics</li>
+                    <li>Rapid service team response</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar Calculator -->
+    <section id="calculator" class="calculator-section">
+        <div class="section-title">
+            <h2>Solar Savings Calculator</h2>
+            <p>Estimate your potential savings and system size.</p>
+        </div>
+        <div class="calculator-container">
+            <div class="calculator-card">
+                <div class="input-group">
+                    <label for="monthly-bill">Average Monthly Electricity Bill (₹)</label>
+                    <input type="range" id="bill-slider" min="1000" max="50000" step="500" value="3000">
+                    <div class="bill-value">₹ <span id="bill-display">3000</span></div>
+                </div>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <h4>Recommended System Size</h4>
+                        <div class="result-value"><span id="system-size">1</span> kW</div>
+                    </div>
+                    <div class="result-item">
+                        <h4>Est. Annual Savings</h4>
+                        <div class="result-value">₹ <span id="annual-savings">36,000</span></div>
+                    </div>
+                    <div class="result-item">
+                        <h4>Est. Project Cost</h4>
+                        <div class="result-value">₹ <span id="project-cost">60,000</span></div>
+                        <small>*Approximate cost</small>
+                    </div>
+                </div>
+                <div class="calc-note">
+                    <p>Note: These are approximate estimations based on average generation and tariffs. Actual values
+                        may vary based on site conditions and state policies.</p>
+                    <a href="#contact" class="btn-primary" style="margin-top: 1.5rem; display: inline-block;">Get
+                        Accurate Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="section-title">
+            <h2>Why Choose MVR?</h2>
+            <p>Excellence in every watt we generate.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
+                <h4>Expert Leadership</h4>
+                <p>Led by industry-trained professionals.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-pencil-ruler"></i></div>
+                <h4>Transparent Design</h4>
+                <p>Accurate energy estimations & methodology.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                <h4>Quality First</h4>
+                <p>Tier-1 components & certified practices.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                <h4>Dedicated Support</h4>
+                <p>Seamless execution & O&M support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries -->
+    <section id="industries">
+        <div class="section-title">
+            <h2>Industries We Serve</h2>
+        </div>
+        <div class="industries-grid">
+            <div class="industry-card">
+                <img src="images/residential.png" alt="Residential">
+                <div class="industry-overlay">
+                    <h4>Residential Homes</h4>
+                </div>
+            </div>
+            <div class="industry-card">
+                <img src="images/commercial.png" alt="Commercial">
+                <div class="industry-overlay">
+                    <h4>Commercial Buildings</h4>
+                </div>
+            </div>
+            <!-- Add more placeholders or reuse images for demo -->
+            <div class="industry-card">
+                <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="Institutions">
+                <div class="industry-overlay">
+                    <h4>Schools & Colleges</h4>
+                </div>
+            </div>
+            <div class="industry-card">
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="Manufacturing">
+                <div class="industry-overlay">
+                    <h4>Manufacturing</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process">
+        <div class="section-title">
+            <h2>Our Process</h2>
+            <p>From concept to commissioning.</p>
+        </div>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Site Assessment</h4>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>Design & Costing</h4>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Proposal</h4>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h4>Installation</h4>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <h4>Commissioning</h4>
+            </div>
+            <div class="step">
+                <div class="step-number">6</div>
+                <h4>Support</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers -->
+    <section id="careers" class="careers-section">
+        <div class="section-title">
+            <h2>Join Our Team</h2>
+            <p>Build a career in sustainable energy with MVR Greentech Solutions.</p>
+        </div>
+        <div class="job-list">
+            <div class="job-card">
+                <div>
+                    <h3>Solar Installation Technician</h3>
+                    <p>Experience: 1-3 Years | Location: Hyderabad</p>
+                </div>
+                <a href="#contact" class="btn-secondary"
+                    style="color: var(--primary-green); border-color: var(--primary-green);">Apply Now</a>
+            </div>
+            <div class="job-card">
+                <div>
+                    <h3>Sales Executive</h3>
+                    <p>Experience: 2+ Years | Location: Hyderabad</p>
+                </div>
+                <a href="#contact" class="btn-secondary"
+                    style="color: var(--primary-green); border-color: var(--primary-green);">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="section-title">
+            <h2 style="color: white;">Contact Us</h2>
+            <p style="color: #aaa;">Get in touch for a free consultation.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>MVR GREENTECH SOLUTIONS</h3>
+                <p style="margin-bottom: 2rem; color: #ccc;">Sustainable Energy. Reliable Execution. Trusted Expertise.
+                </p>
+
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt" style="color: var(--primary-orange);"></i>
+                    <span>+91 9618629976</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope" style="color: var(--primary-orange);"></i>
+                    <span>mvrgreentechsolutions@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt" style="color: var(--primary-orange);"></i>
+                    <span>Kukatpally, Hyderabad, Telangana -500072, India </span>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="mailto:mvrgreentechsolutions85@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <textarea name="message" rows="5" placeholder="Message / Requirement"></textarea>
+                    <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 MVR Greentech Solutions. All Rights Reserved.</p>
+        </footer>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
